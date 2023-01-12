@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To do List</title>
+    <!-- ICONS -->
+    <link 
+    rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" 
+    integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" 
+    crossorigin="anonymous" referrerpolicy="no-referrer" 
+    />
+    <!-- CSS -->
+    <link rel="stylesheet" href="/css/style.css">
+    <!-- JS -->
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <main id="container">
+        <h1>To Do List</h1>
+        <section class="general-form">
+            <div id="todo-form">
+                <h4>Adicione a sua tarefa:</h4>
+                <div class="form-control">
+                    <input type="text" id="form-input" placeholder="O que você vai fazer?">
+                    <button onclick="createTodo()" id="btn-add">
+                        <i class="fa-thin fa-plus"></i>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <section id="todo-list">
+        </section> 
+    </main>
+</body>
+</html>
